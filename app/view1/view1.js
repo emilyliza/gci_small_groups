@@ -12,5 +12,6 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('View1Ctrl', ['$scope', '$http', function($scope, $http) {
 
   $scope.test = "fred";
+  $scope.count = 12;
 
 }]);
